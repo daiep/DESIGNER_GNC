@@ -1,5 +1,5 @@
 # DESIGNER_GNC
-DESIGNER pipeline with added Gradient Non-linearity Correction (GNC) feature.
+Voxel-wise DKI/DTI fitting script with Gradient Non-linearity Corrected (GNC) b-value and b-vector maps, based on the DESIGNER toolbox.
 ## Getting Started
 1. DESIGNER Preprocessing
 2. GNC on b-value and b-vector
