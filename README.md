@@ -3,7 +3,7 @@ Voxel-wise DKI/DTI fitting script with Gradient Non-linearity Corrected (GNC) b-
 ## Getting Started
 Run DESIGNER_DKI_GNC.m for voxel-wise DKI/DTI fitting, with example multi-shell diffusion data to regenerate Figure 3 in _Dai E, et al. NIMG 2023_ (corresponding to slice 2).
   
-Refer to the example data for the format requirement:  
+Refer to the example data for the data format requirement:  
 1.  b0/data/nodif_brain_mask.nii.gz, bvals, and bvecs: Preprocessed data with the recommended DESIGNER pipeline, including corrections for thermal noise, Gibbs ringing, Rician biases, susceptibility–induced geometric distortions, eddy-current-induced spatial distortions, and interslice motion.
 2.  bvals_gnc.mat and bvecs_gnc_mat: Voxel-wise b-value and b-vector maps after GNC, based on the spherical harmonics provided by vendors (Tan et al., JMRI 2013). Format: #-of-b-val/b-vec * 3 (b-vec)/1 (b-val) * RO * PE * SL. 
 ## Citations
