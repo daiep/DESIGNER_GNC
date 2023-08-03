@@ -5,7 +5,7 @@ Run DESIGNER_DKI_GNC.m for voxel-wise DKI/DTI fitting, with example multi-shell 
   
 Refer to the example data for the data format requirement:  
 1.  b0/data/nodif_brain_mask.nii.gz, bvals, and bvecs: Preprocessed data with the recommended DESIGNER pipeline, including corrections for thermal noise, Gibbs ringing, Rician biases, susceptibility–induced geometric distortions, eddy-current-induced spatial distortions, and interslice motion.
-2.  bvals_gnc.mat and bvecs_gnc.mat: Voxel-wise b-value and b-vector maps after GNC, based on the spherical harmonics provided by vendors (Tan et al., JMRI 2013). Format: #-of-b-val/b-vec * 3 (b-vec)/1 (b-val) * RO * PE * SL. 
+2.  bvals_gnc.mat and bvecs_gnc.mat: Voxel-wise b-value and b-vector maps after GNC, based on the spherical harmonics provided by vendors (_Tan et al. JMRI 2013_). Format: #-of-b-val/b-vec * 3 (b-vec)/1 (b-val) * RO * PE * SL. 
 ## Citations
 If you find this script useful in your research, please cite:  
 
